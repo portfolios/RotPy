@@ -28,6 +28,9 @@ class rotGui(tkinter.Tk):
         self.entry3 = tkinter.Label(self, text="Resulting text: ")
         self.entry3.grid(column=0, row=2, sticky='E')
 
+        self.entry4 = tkinter.Label(self, text="Copyright © Paulo Mota, 2015")
+        self.entry4.grid(column=0, row=3, columnspan=2, sticky='E')
+
         # DEFINING THE KEY VARIABLE BOX
         self.keyVariable = tkinter.StringVar()  # define entry variable
         self.entry = tkinter.Entry(self, textvariable=self.keyVariable,
